@@ -5,15 +5,17 @@ public class TestClass {
     public static void main(String[] args) {
         InnerClass t = new InnerClass();
         System.out.println(t.n);
+        // 可以直接调用t.n
         t.n = 15;
         System.out.println(t.n);
     }
     static private class InnerClass extends TestClass {
-        int n;
+        private int n;
         private InnerClass() {
         }
 
         InnerClass(int m) {
+            n = m;
         }
 
     }
