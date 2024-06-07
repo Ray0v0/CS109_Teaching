@@ -22,8 +22,7 @@ public class SortObjects {
                 new ExampleClass1(1),
                 new ExampleClass1(2)
         };
-        System.out.printf("b[0]=%d, b[1]=%d, b[0]<b[i]为%s\n", b[0].value, b[1].value, "123");
-        Arrays.sort(b);
+//        Arrays.sort(b);
         System.out.print("b数组排序后（b数组无法排序）: ");
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i]);

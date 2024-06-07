@@ -25,7 +25,7 @@ public class ComprehensionOfString {
         String b = "TEST";
         String c = b;
         change(b);
-//        System.out.println(b == c);
+        System.out.println(b == c);
     }
 
     private static void change(String b) {
